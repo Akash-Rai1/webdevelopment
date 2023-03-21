@@ -1,0 +1,145 @@
+body {
+    font-family: "Montserrat";
+}
+#title {
+    padding: 0 15%;
+    background-color: #ff4c68;
+    color: white;
+}
+.he1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.nav-item {
+    font-size: 1.3rem;
+    font-weight: 300;
+}    
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2rem;
+    padding-bottom: 4.5rem;
+}
+.db {
+    margin: 5% 3% 5% 0;
+}
+.mobiledog {
+     width: 60%;
+     transform: rotate(25deg);
+     /* position: relative;
+    left: 100px; */
+    
+    
+}
+#features {
+    background-color: aliceblue;
+    margin-left: 20px;
+    padding: 5% 15%;
+    position: relative;
+    z-index: 100;
+
+    
+}
+.fa-solidi {
+    width: 30px;
+    height: 30px;
+    size: 3rem;
+    color: #ff4c68;
+}
+/* testimonials section intermediate bootstrap */
+#testimonials{
+    
+    background-color: #ff4c68;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.carousel-item{
+    padding: 15% 15%;
+
+}
+/* ^ it is so that naxt and previous arrow does not get included in padding and get enough space */
+.testline1{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.tesimg1{
+    height: 50%;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+/* press section */
+.press{
+    background-color: #ff4c68;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    height: 20%;
+    margin: 20px;
+}
+/* pricing section */
+#pricing{
+    text-align: center;
+    padding: auto;
+    margin: 5% 0;
+}
+/* last section  */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: "Montserrat";
+    padding: 6% 2% 4%;
+    color: aliceblue;
+}
+.cta-line{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+/* footer section  */
+#footer{
+    text-align: center ;
+    padding: 5%;
+}
+.footer-icon{
+    margin: 0 1rem;
+}
+@media (max-width: 480px) {
+    #title{
+        text-align: center;
+        position: static;
+        z-index: -2;
+
+    }
+    .mobiledog{
+        transform:rotate(0);
+        
+       
+    }
+}
+@media (max-width: 980px) {
+    body{
+        background-color: aqua;
+    }
+    #title{
+        text-align: center;
+        position: static;
+        z-index: -2;
+
+    }
+    .mobiledog{
+        transform:rotate(0);
+       
+    }
+}

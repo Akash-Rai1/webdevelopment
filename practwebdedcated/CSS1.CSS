@@ -1,0 +1,212 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-color: rgb(236, 231, 249);
+}
+/* .nav1 {
+    width: 100%;
+    background-color: rgb(66, 61, 58);
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navbaar {
+    display: inline;
+}
+.navlink {
+    display: inline;
+    color: antiquewhite;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    line-height: 3rem;( /* this is used to increase the size of the navbar )
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+} */
+
+/* .s11 {
+    font-size: 1.2rem;
+    line-height: 3rem; /* this is used to increase the size of the navbar 
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: antiquewhite;
+} */
+/* body this is used to remove the margin and put the text to center */
+/* .navbaar {
+    background-color: rgb(66, 61, 58);
+    
+}
+.s11 {
+    font-size: 1.2rem;
+    line-height: 3rem; this is used to increase the size of the navbar
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 37rem;
+    color: antiquewhite;
+}
+
+.s12 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 33rem;
+    color: antiquewhite;
+}
+.s13 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 35rem;
+    color: antiquewhite;
+}
+.s14 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 37rem;
+    color: antiquewhite;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+} */
+
+.first {
+    text-align: center;
+    height: 42rem;
+    background-color: rgb(236, 231, 249);
+    background-image: url("./bg1.jpg");
+    /* this is used add an background-image  */
+    background-size: cover;
+    /* this is used make the image onlyy cover the page */
+    /* border: solid 10px; */
+    padding: 10px;
+    padding-top: 80px;
+    position: relative;
+    /* position relative /absolute and sticky are uused for positioon the element how ever you want,position is used so that its position changes according to its previous position
+    position: relative;
+    top: 40px; left: 40px; */
+
+    /* margin-bottom: 60px; */
+    padding-top: 10%;
+}
+.heading1 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 80px;
+
+    color: rgb(32, 29, 29);
+}
+.name {
+    font-family: "Sacramento", cursive;
+    margin-top: 20px;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(180, 27, 27);
+}
+.part {
+    text-align: center;
+    border-top: dotted;
+    /* border-bottom: 0;
+    border-left: 0;
+    border-right: 0; */
+    border-width: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+    width: 30%;
+    background-color: rgb(236, 231, 249);
+}
+.bio {
+    padding: 2rem;
+    width: auto;
+    text-align: left;
+    background-color: rgb(236, 231, 249);
+}
+.space{
+    margin: 10rem 0rem ;
+}
+.img1 {
+    border: 1px solid #000000;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+    width: 315px;
+    height: 360px;
+
+    border-color: Black;
+    float: left;
+    border-radius: 100%;
+}
+h2 {
+    line-height: 3rem;
+}
+
+.cont1 {
+    font-size: larger;
+    line-height: 2rem;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.highlight {
+    color: rgb(144, 17, 17);
+    font-weight: bold;
+}
+.education {
+    height: 25rem;
+    justify-content: space-between;
+}
+td {
+    border: 2px solid;
+    border-width: 2px;
+}
+
+.t12 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 3rem;
+    border: 2px solid;
+}
+
+.thanks {
+    height: 43rem;
+    background-image: url(./thanks2.jpg);
+    /* background-repeat: no-repeat;*/
+    background-position: center;
+    background-size: cover;
+}
+.last {
+    height: 6rem;
+    background-color: rgb(229, 222, 246);
+    text-align: center;
+}
+.footer-link {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    text-decoration: none;
+    color: #1f6da1;
+    line-height: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    position: relative;
+    top: 10px;
+}
+.footer-link:hover {
+    color: #501f70;
+}
